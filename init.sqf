@@ -1,3 +1,8 @@
+titleCut ["", "BLACK FADED", 999];
+player setpos [(((getpos player) select 0)+ 100 - (random 200)), (((getpos player) select 1)+ 100 - (random 200)),0];
+sleep 1;
+titleCut ["", "BLACK IN", 5];
+
 tSF_DEBUG = true;
 
 // dzn Gear
