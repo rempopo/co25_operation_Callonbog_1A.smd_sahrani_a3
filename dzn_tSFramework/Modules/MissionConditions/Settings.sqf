@@ -48,6 +48,6 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", "(heli1 inArea BaseTrg)or(heli2 inArea BaseTrg) && { {_x inArea trfinish} count (call BIS_fnc_listPlayers) > 0}", "выполнены все условия", 15 ];
+MissionCondition1 = [ "WIN", "((heli1 inArea trfinish)OR(heli2 inArea trfinish)) && { {_x inArea trfinish} count (call BIS_fnc_listPlayers) > 0}", "выполнены все условия", 15 ];
 MissionCondition2 = [ "FAIL", "(!alive heli1) && (!alive heli2) && { {_x inArea trfinish} count (call BIS_fnc_listPlayers) > 0}", "частичное выполнение", 20 ];
 MissionCondition3 = [ "WIPED", { {alive _x} count (call BIS_fnc_listPlayers) < 1 }, "бойцы погибли", 30 ];

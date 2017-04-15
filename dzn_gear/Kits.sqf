@@ -41,13 +41,13 @@
 
 // ******** ASSIGNED and UNIFORM ITEMS MACRO ********
 #define NVG_NIGHT_ITEM		if (daytime < 7 || daytime > 15) then { "NVGoggles_OPFOR" } else { "" }
-#define BINOCULAR_ITEM		"Binocular"
+#define BINOCULAR_ITEM		"ACE_Vector"
 
 #define ASSIGNED_ITEMS		"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM
 #define ASSIGNED_ITEMS_L	"ItemMap","ItemCompass","ItemWatch","ItemRadio", NVG_NIGHT_ITEM, BINOCULAR_ITEM
 
-#define UNIFORM_ITEMS		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]
-#define UNIFORM_ITEMS_L		["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
+#define UNIFORM_ITEMS		["ACE_RangeTable_82mm",1],["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1]
+#define UNIFORM_ITEMS_L		["ACE_RangeTable_82mm",1],["ACE_fieldDressing",5],["ACE_packingBandage",5],["ACE_elasticBandage",5],["ACE_tourniquet",2],["ACE_morphine",2],["ACE_epinephrine",2],["ACE_quikclot",5],["ACE_CableTie",2],["ACE_Flashlight_XL50",1],["ACE_EarPlugs",1],["ACE_MapTools",1]
 // ****************
 
 
@@ -79,8 +79,8 @@ kit_merc_forest_bpla = [
 	["<PRIMARY WEAPON >>  ","rhs_weap_ak74m_2mag_camo","rhs_30Rnd_545x39_AK",["rhs_acc_dtk4short","rhs_acc_perst1ik","rhs_acc_ekp1",""]],
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Rook40_F","16Rnd_9x21_Mag",["muzzle_snds_L","","",""]],
-	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ItemWatch","ItemRadio","O_UavTerminal", NVG_NIGHT_ITEM, BINOCULAR_ITEM ],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L],["ACE_RangeCard",1]],
 	["<VEST ITEMS >> ",[["ACE_IR_Strobe_Item",1],["ACE_EntrenchingTool",1],["ACE_RangeCard",1],["ACE_RangeTable_82mm",1],["ACE_MapTools",1],["rhs_30Rnd_545x39_7U1_AK",8],["SmokeShellOrange",2],["ACE_HandFlare_Red",1],["SmokeShell",1]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];
@@ -90,7 +90,7 @@ kit_merc_forest_mms = [
 	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
 	["<HANDGUN WEAPON >>  ","hgun_Rook40_F","16Rnd_9x21_Mag",["muzzle_snds_L","","",""]],
 	["<ASSIGNED ITEMS >>  ", ASSIGNED_ITEMS_L],
-	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L]],
+	["<UNIFORM ITEMS >> ",[UNIFORM_ITEMS_L],["ACE_RangeCard",1]],
 	["<VEST ITEMS >> ",[["ACE_IR_Strobe_Item",1],["ACE_EntrenchingTool",1],["ACE_RangeCard",1],["ACE_RangeTable_82mm",1],["ACE_Kestrel4500",1],["ACE_HandFlare_Red",1],["SmokeShellOrange",1],["HANDGUN MAG",2],["SmokeShell",1],["PRIMARY MAG",12],["CUP_HandGrenade_RGD5",2]]],
 	["<BACKPACK ITEMS >> ",[]]
 ];

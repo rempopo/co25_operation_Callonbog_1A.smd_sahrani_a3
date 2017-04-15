@@ -98,4 +98,13 @@ class Params
 	};
 };
 
+class CfgMusic
+{
+	tracks[]={};
 
+	class Troops
+	{
+		name = "";
+		sound[] = {"Troops.ogg", db+0, 1.0};
+	}
+	};
