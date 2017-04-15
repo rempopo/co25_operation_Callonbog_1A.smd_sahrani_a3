@@ -8,7 +8,7 @@
     /* Groups: */
     [
         [
-            5, /* Groups quantity */
+            4, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", [], "kit_resist_random"]
@@ -26,7 +26,7 @@
     /* Groups: */
     [
         [
-            2, /* Groups quantity */
+            1, /* Groups quantity */
             /* Units */
             [
                 ["CUP_I_V3S_Covered_TKG", "Vehicle Road Patrol", ""]
@@ -60,7 +60,7 @@
             ]
         ]
         ,[
-            10, /* Groups quantity */
+            8, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", [], "kit_resist_random"]
@@ -94,7 +94,7 @@
             ]
         ]
         ,[
-            5, /* Groups quantity */
+            4, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", [], "kit_resist_random"]
@@ -111,7 +111,7 @@
             ]
         ]
         ,[
-            10, /* Groups quantity */
+            8, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", [], "kit_resist_random"]
@@ -210,7 +210,7 @@
     /* Groups: */
     [
         [
-            3, /* Groups quantity */
+            5, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", [], "kit_resist_random"]
@@ -219,7 +219,7 @@
             ]
         ]
         ,[
-            3, /* Groups quantity */
+            4, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", ["indoors"], "kit_resist_random"]
@@ -234,7 +234,7 @@
             ]
         ]
         ,[
-            3, /* Groups quantity */
+            4, /* Groups quantity */
             /* Units */
             [
                 ["B_Soldier_F", [], "kit_resist_random"]

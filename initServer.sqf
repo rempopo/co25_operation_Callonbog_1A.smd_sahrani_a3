@@ -7,7 +7,7 @@ MissionDate = [
 	date select 0
 	, date select 1
 	, date select 2
-	, if ("par_daytime" call BIS_fnc_getParamValue == 0) then {7+round(random 1)} else {15+round(random 1)}
+	, if ("par_daytime" call BIS_fnc_getParamValue == 0) then {5+round(random 3)} else {15+round(random 1)}
 	, selectRandom [0,10,15,20,25,30,40,45,50]
 ];
 publicVariable "MissionDate";

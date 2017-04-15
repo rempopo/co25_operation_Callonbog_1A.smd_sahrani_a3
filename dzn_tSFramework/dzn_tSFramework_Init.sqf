@@ -21,7 +21,7 @@ tSF_module_Briefing = true;
 tSF_module_tSNotes = true;
 tSF_module_tSNotesSettings = true;
 
-tSF_module_CCP = false;
+tSF_module_CCP = true;
 tSF_module_Interactives = false;
 tSF_module_InteractivesACE = false;
 tSF_module_AirborneSupport = false;
