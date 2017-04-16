@@ -4531,7 +4531,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=8;
+				items=7;
 				class Item0
 				{
 					dataType="Object";
@@ -4575,17 +4575,6 @@ class Mission
 				class Item3
 				{
 					dataType="Waypoint";
-					position[]={8577.5,68.851936,15689.5};
-					type="Loiter";
-					class Effects
-					{
-					};
-					showWP="NEVER";
-					id=548;
-				};
-				class Item4
-				{
-					dataType="Waypoint";
 					position[]={11630.5,117.06367,15277};
 					type="SeekAndDestroy";
 					class Effects
@@ -4595,7 +4584,7 @@ class Mission
 					id=549;
 					atlOffset=-7.6293945e-006;
 				};
-				class Item5
+				class Item4
 				{
 					dataType="Waypoint";
 					position[]={11579,254.97496,14188};
@@ -4606,7 +4595,7 @@ class Mission
 					id=550;
 					type="Move";
 				};
-				class Item6
+				class Item5
 				{
 					dataType="Waypoint";
 					position[]={14153.719,39.941086,12570.07};
@@ -4617,7 +4606,7 @@ class Mission
 					showWP="NEVER";
 					id=551;
 				};
-				class Item7
+				class Item6
 				{
 					dataType="Waypoint";
 					position[]={14235,38.701141,12700.5};
