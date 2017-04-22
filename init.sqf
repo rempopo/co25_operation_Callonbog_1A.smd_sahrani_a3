@@ -1,6 +1,4 @@
 
-tSF_DEBUG = true;
-
 // dzn Gear
   // set true to engage Edit mode
 [false] execVM "dzn_gear\dzn_gear_init.sqf";
